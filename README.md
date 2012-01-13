@@ -1,6 +1,10 @@
 "Its" makes testing methods with multiple arguments much easier
 ==================================================
 
+
+![Build Status](https://secure.travis-ci.org/dnagir/its.png)
+
+
 Have you ever written something like this in your specs?
 
 ```ruby
