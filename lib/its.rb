@@ -99,4 +99,4 @@ module Its
 
 end
 
-RSpec::Core::ExampleGroup.send :extend, Its::ExampleGroupMethods
+RSpec.configure { |c| c.extend Its::ExampleGroupMethods }
