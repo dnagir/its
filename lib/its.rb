@@ -67,7 +67,7 @@ module Its
     #   end
     #
     #
-    # This is extraction for the RSpec Core.
+    # This is the extraction from the RSpec Core.
     # For reference, see:
     # - https://github.com/rspec/rspec-core/blob/7ce078e4948e8f0d1745a50bb83dd87a68b2e50e/lib/rspec/core/subject.rb#L120
     # This modifies the following behaviour:
