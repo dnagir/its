@@ -21,15 +21,13 @@ it "should be UK currency" do
 end
 ```
 
-If yes, then this what you really wanted:
+If yes, then this is what you really needed:
 
 ```ruby
 its(:currency, :us) { should == 'US dollar' }
 its(:currency, :au) { should == 'AU dollar' }
 its(:currency, :uk) { should == 'UK pound' }
 ```
-
-That's what this gem is for!
 
 Installation and use
 ==================================================
