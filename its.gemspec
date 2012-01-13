@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Its::VERSION
   s.authors     = ["Dmytrii Nagirniak"]
   s.email       = ["dnagir@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/dnagir/its"
+  s.summary     = %q{Testing methods with multiple arguments much easier with RSpec}
+  s.description = %q{You can write `its(:currency, :us) \{ should == 'US dollars' \}`}
 
   s.rubyforge_project = "its"
 
