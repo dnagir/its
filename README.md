@@ -1,8 +1,8 @@
 "Its" makes testing methods with multiple arguments much easier
 ==================================================
 
-
-![Build Status](https://secure.travis-ci.org/dnagir/its.png)
+Tested on MRI Ruby 1.8.7, 1.9.2, 1.9.3, Rubinius (1.8 and 1.9) and JRuby
+[![Build Status](https://secure.travis-ci.org/dnagir/its.png)](http://travis-ci.org/dnagir/its)
 
 
 Have you ever written something like this in your specs?
