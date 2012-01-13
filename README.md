@@ -1,5 +1,4 @@
-
-`Its` makes testing methods with multiple arguments much easier
+"Its" makes testing methods with multiple arguments much easier
 ==================================================
 
 Have you ever written something like this in your specs?
@@ -26,7 +25,7 @@ its(:currency, :au) { should == 'AU dollar' }
 its(:currency, :uk) { should == 'UK pound' }
 ```
 
-This gems gives you this.
+That's what this gem is for!
 
 Installation and use
 ==================================================
@@ -56,4 +55,4 @@ Please report any issues here or better submit a Pull Request.
 License:
 ==================================================
 
-MIT
+MIT by me and RSpec guys where this code was extracted from.
