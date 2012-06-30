@@ -13,7 +13,7 @@ it "should be US currency" do
 end
 
 it "should be AU currency" do
-  subject.currency(:us).should == 'AU dollar'
+  subject.currency(:au).should == 'AU dollar'
 end
 
 it "should be UK currency" do
